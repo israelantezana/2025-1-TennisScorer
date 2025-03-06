@@ -1,5 +1,5 @@
-function puntuacion(a, b) {
-  if (a === 1 && b === 0) {
+function puntuacion(score1, score2) {
+  if (score1 === 1 && score2 === 0) {
     return "15 - 0";
   }
   return "love, love";
