@@ -10,4 +10,7 @@ describe("Marcador de puntaje de tennis", () => {
   it("en caso de que un jugador tengo 2 puntos y el otro jugador tenga 0 puntos", () => {
     expect(obtenerScore(2, 0)).toEqual("30 - 0");
   });
+  it("en caso de que un jugador tengo 3 puntos y el otro jugador tenga 0 puntos", () => {
+    expect(obtenerScore(3, 0)).toEqual("40 - 0");
+  });
 });
